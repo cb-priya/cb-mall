@@ -1,0 +1,14 @@
+
+digraph G {
+
+  //Installing an app
+  subgraph cluster_0 {
+    style=filled;
+    color=lightgrey;
+    node [style=filled,color=white];
+    "View Apps" -> "Open App Page" -> "Install App" -> "Site Selection" 
+    -> "CB authentication" -> "App is installed"
+    label = "Chargebee Mall";
+  }
+
+}
